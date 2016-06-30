@@ -99,11 +99,17 @@ of those sections to manage the look and feel of the site. */
 /******** transition/animation style section ********/
 
 #transition {
-  /* put style here */
+  height: 100px;
+  width: 100px;
+  background: black;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
 }
 
 #transition:hover {
-  /* what do you want the transition to do? */
+  transform: scale(2) rotate(360deg);
+  background: white;
 }
 
 #animation {
